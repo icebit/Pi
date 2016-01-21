@@ -1,0 +1,22 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "Circle wars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icebit/Pi.git"
+  },
+  "author": "icebit",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/icebit/Pi/issues"
+  },
+  "homepage": "https://github.com/icebit/Pi#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
