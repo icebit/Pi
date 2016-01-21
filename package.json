@@ -4,7 +4,7 @@
   "description": "Circle wars",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ."
+    "test": "./node_modules/.bin/mocha Test"
   },
   "repository": {
     "type": "git",
