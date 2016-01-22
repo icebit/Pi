@@ -1,9 +1,9 @@
-exports.Vec2 = function(x, y){
+module.exports = function(x, y){
   this.x = x;
   this.y = y;
   
   this.Add = function(other){
-    return exports.Vec2(this.x + other.x, this.y + other.y);
+    return module.exports(this.x + other.x, this.y + other.y);
   };
   
   this.GetLength = function(){
