@@ -3,7 +3,8 @@ var Vec2 = require("../Engine/Math/Vector").Vec2;
 describe("Vec2()", function(){
   describe("Add()", function(){
     it("Should return Vec2(2, 2) for Vec2(1, 1) + Vec2(1, 1)", function(){
-      var vec = new Vec2(1, 1).Add(Vec2(1, 1));
+      var vec = new Vec2(1, 1);
+      vec = vec.Add(Vec2(1, 1));
       assert.equal(vec.x, 2);
       assert.equal(vec.y, 2);
     });
