@@ -3,7 +3,7 @@ Body.js
 Basic physical body for simulations
 */
 
-exports.Body = function(){
+module.exports = function(){
   this.mass;
   this.AddForce = function(force){
   }

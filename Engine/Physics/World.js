@@ -3,7 +3,7 @@ World.js
 Basic class world for physics simulations
 */
 
-exports.World = function(){
+module.exports = function(){
   this.Step = function(delta){
 
   }

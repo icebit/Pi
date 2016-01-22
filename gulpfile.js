@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 var uglify = require("gulp-uglify");
 var concat = require("gulp-concat");
-var dest = "Build";
+var dest = "Dest";
 
 gulp.task("default", function(){
   gulp.run("engine");
